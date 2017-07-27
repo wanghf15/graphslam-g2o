@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tutorial_slam2d">
+				<Option output="/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/tutorial_slam2d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 tutorial_slam2d"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tutorial_slam2d/fast">
+				<Option output="/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/tutorial_slam2d" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 tutorial_slam2d/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tutorial_slam2d_library">
+				<Option output="/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/libtutorial_slam2d.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 tutorial_slam2d_library"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tutorial_slam2d_library/fast">
+				<Option output="/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/libtutorial_slam2d.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 tutorial_slam2d_library/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wanghf/dev/ninebot/tutorial_slam2d/edge_se2.cpp">
+			<Option target="tutorial_slam2d_library"/>
+		</Unit>
+		<Unit filename="/home/wanghf/dev/ninebot/tutorial_slam2d/edge_se2.h">
+			<Option target="tutorial_slam2d_library"/>
+		</Unit>
+		<Unit filename="/home/wanghf/dev/ninebot/tutorial_slam2d/edge_se2_pointxy.cpp">
+			<Option target="tutorial_slam2d_library"/>
+		</Unit>
+		<Unit filename="/home/wanghf/dev/ninebot/tutorial_slam2d/edge_se2_pointxy.h">
+			<Option target="tutorial_slam2d_library"/>
+		</Unit>
+		<Unit filename="/home/wanghf/dev/ninebot/tutorial_slam2d/g2o_tutorial_slam2d_api.h">
+			<Option target="tutorial_slam2d_library"/>
+		</Unit>
+		<Unit filename="/home/wanghf/dev/ninebot/tutorial_slam2d/parameter_se2_offset.cpp">
+			<Option target="tutorial_slam2d_library"/>
+		</Unit>
+		<Unit filename="/home/wanghf/dev/ninebot/tutorial_slam2d/parameter_se2_offset.h">
+			<Option target="tutorial_slam2d_library"/>
+		</Unit>
+		<Unit filename="/home/wanghf/dev/ninebot/tutorial_slam2d/rand.h">
+			<Option target="tutorial_slam2d_library"/>
+		</Unit>
+		<Unit filename="/home/wanghf/dev/ninebot/tutorial_slam2d/se2.h">
+			<Option target="tutorial_slam2d_library"/>
+		</Unit>
+		<Unit filename="/home/wanghf/dev/ninebot/tutorial_slam2d/simulator.cpp">
+			<Option target="tutorial_slam2d_library"/>
+		</Unit>
+		<Unit filename="/home/wanghf/dev/ninebot/tutorial_slam2d/simulator.h">
+			<Option target="tutorial_slam2d_library"/>
+		</Unit>
+		<Unit filename="/home/wanghf/dev/ninebot/tutorial_slam2d/tutorial_slam2d.cpp">
+			<Option target="tutorial_slam2d"/>
+		</Unit>
+		<Unit filename="/home/wanghf/dev/ninebot/tutorial_slam2d/types_tutorial_slam2d.cpp">
+			<Option target="tutorial_slam2d_library"/>
+		</Unit>
+		<Unit filename="/home/wanghf/dev/ninebot/tutorial_slam2d/types_tutorial_slam2d.h">
+			<Option target="tutorial_slam2d_library"/>
+		</Unit>
+		<Unit filename="/home/wanghf/dev/ninebot/tutorial_slam2d/vertex_point_xy.cpp">
+			<Option target="tutorial_slam2d_library"/>
+		</Unit>
+		<Unit filename="/home/wanghf/dev/ninebot/tutorial_slam2d/vertex_point_xy.h">
+			<Option target="tutorial_slam2d_library"/>
+		</Unit>
+		<Unit filename="/home/wanghf/dev/ninebot/tutorial_slam2d/vertex_se2.cpp">
+			<Option target="tutorial_slam2d_library"/>
+		</Unit>
+		<Unit filename="/home/wanghf/dev/ninebot/tutorial_slam2d/vertex_se2.h">
+			<Option target="tutorial_slam2d_library"/>
+		</Unit>
+		<Unit filename="/home/wanghf/dev/ninebot/tutorial_slam2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
