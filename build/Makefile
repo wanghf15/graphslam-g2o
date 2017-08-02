@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wanghf/dev/g2o/g2o/examples/tutorial_slam2d
+CMAKE_SOURCE_DIR = /home/wanghf/dev/ninebot/graphslam-g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wanghf/dev/g2o/g2o/examples/tutorial_slam2d/build
+CMAKE_BINARY_DIR = /home/wanghf/dev/ninebot/graphslam-g2o/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wanghf/dev/g2o/g2o/examples/tutorial_slam2d/build/CMakeFiles /home/wanghf/dev/g2o/g2o/examples/tutorial_slam2d/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wanghf/dev/ninebot/graphslam-g2o/build/CMakeFiles /home/wanghf/dev/ninebot/graphslam-g2o/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wanghf/dev/g2o/g2o/examples/tutorial_slam2d/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wanghf/dev/ninebot/graphslam-g2o/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -136,125 +136,221 @@ tutorial_slam2d_library/fast:
 	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/build
 .PHONY : tutorial_slam2d_library/fast
 
-# target to build an object file
-edge_se2.o:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/edge_se2.o
+edge_se2.o: edge_se2.cpp.o
+
 .PHONY : edge_se2.o
 
-# target to preprocess a source file
-edge_se2.i:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/edge_se2.i
+# target to build an object file
+edge_se2.cpp.o:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/edge_se2.cpp.o
+.PHONY : edge_se2.cpp.o
+
+edge_se2.i: edge_se2.cpp.i
+
 .PHONY : edge_se2.i
 
-# target to generate assembly for a file
-edge_se2.s:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/edge_se2.s
+# target to preprocess a source file
+edge_se2.cpp.i:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/edge_se2.cpp.i
+.PHONY : edge_se2.cpp.i
+
+edge_se2.s: edge_se2.cpp.s
+
 .PHONY : edge_se2.s
 
-# target to build an object file
-edge_se2_pointxy.o:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/edge_se2_pointxy.o
+# target to generate assembly for a file
+edge_se2.cpp.s:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/edge_se2.cpp.s
+.PHONY : edge_se2.cpp.s
+
+edge_se2_pointxy.o: edge_se2_pointxy.cpp.o
+
 .PHONY : edge_se2_pointxy.o
 
-# target to preprocess a source file
-edge_se2_pointxy.i:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/edge_se2_pointxy.i
+# target to build an object file
+edge_se2_pointxy.cpp.o:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/edge_se2_pointxy.cpp.o
+.PHONY : edge_se2_pointxy.cpp.o
+
+edge_se2_pointxy.i: edge_se2_pointxy.cpp.i
+
 .PHONY : edge_se2_pointxy.i
 
-# target to generate assembly for a file
-edge_se2_pointxy.s:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/edge_se2_pointxy.s
+# target to preprocess a source file
+edge_se2_pointxy.cpp.i:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/edge_se2_pointxy.cpp.i
+.PHONY : edge_se2_pointxy.cpp.i
+
+edge_se2_pointxy.s: edge_se2_pointxy.cpp.s
+
 .PHONY : edge_se2_pointxy.s
 
-# target to build an object file
-parameter_se2_offset.o:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/parameter_se2_offset.o
+# target to generate assembly for a file
+edge_se2_pointxy.cpp.s:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/edge_se2_pointxy.cpp.s
+.PHONY : edge_se2_pointxy.cpp.s
+
+parameter_se2_offset.o: parameter_se2_offset.cpp.o
+
 .PHONY : parameter_se2_offset.o
 
-# target to preprocess a source file
-parameter_se2_offset.i:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/parameter_se2_offset.i
+# target to build an object file
+parameter_se2_offset.cpp.o:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/parameter_se2_offset.cpp.o
+.PHONY : parameter_se2_offset.cpp.o
+
+parameter_se2_offset.i: parameter_se2_offset.cpp.i
+
 .PHONY : parameter_se2_offset.i
 
-# target to generate assembly for a file
-parameter_se2_offset.s:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/parameter_se2_offset.s
+# target to preprocess a source file
+parameter_se2_offset.cpp.i:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/parameter_se2_offset.cpp.i
+.PHONY : parameter_se2_offset.cpp.i
+
+parameter_se2_offset.s: parameter_se2_offset.cpp.s
+
 .PHONY : parameter_se2_offset.s
 
-# target to build an object file
-simulator.o:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/simulator.o
+# target to generate assembly for a file
+parameter_se2_offset.cpp.s:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/parameter_se2_offset.cpp.s
+.PHONY : parameter_se2_offset.cpp.s
+
+simulator.o: simulator.cpp.o
+
 .PHONY : simulator.o
 
-# target to preprocess a source file
-simulator.i:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/simulator.i
+# target to build an object file
+simulator.cpp.o:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/simulator.cpp.o
+.PHONY : simulator.cpp.o
+
+simulator.i: simulator.cpp.i
+
 .PHONY : simulator.i
 
-# target to generate assembly for a file
-simulator.s:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/simulator.s
+# target to preprocess a source file
+simulator.cpp.i:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/simulator.cpp.i
+.PHONY : simulator.cpp.i
+
+simulator.s: simulator.cpp.s
+
 .PHONY : simulator.s
 
-# target to build an object file
-tutorial_slam2d.o:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d.dir/build.make CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.o
+# target to generate assembly for a file
+simulator.cpp.s:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/simulator.cpp.s
+.PHONY : simulator.cpp.s
+
+tutorial_slam2d.o: tutorial_slam2d.cpp.o
+
 .PHONY : tutorial_slam2d.o
 
-# target to preprocess a source file
-tutorial_slam2d.i:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d.dir/build.make CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.i
+# target to build an object file
+tutorial_slam2d.cpp.o:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d.dir/build.make CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.o
+.PHONY : tutorial_slam2d.cpp.o
+
+tutorial_slam2d.i: tutorial_slam2d.cpp.i
+
 .PHONY : tutorial_slam2d.i
 
-# target to generate assembly for a file
-tutorial_slam2d.s:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d.dir/build.make CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.s
+# target to preprocess a source file
+tutorial_slam2d.cpp.i:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d.dir/build.make CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.i
+.PHONY : tutorial_slam2d.cpp.i
+
+tutorial_slam2d.s: tutorial_slam2d.cpp.s
+
 .PHONY : tutorial_slam2d.s
 
-# target to build an object file
-types_tutorial_slam2d.o:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/types_tutorial_slam2d.o
+# target to generate assembly for a file
+tutorial_slam2d.cpp.s:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d.dir/build.make CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.s
+.PHONY : tutorial_slam2d.cpp.s
+
+types_tutorial_slam2d.o: types_tutorial_slam2d.cpp.o
+
 .PHONY : types_tutorial_slam2d.o
 
-# target to preprocess a source file
-types_tutorial_slam2d.i:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/types_tutorial_slam2d.i
+# target to build an object file
+types_tutorial_slam2d.cpp.o:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/types_tutorial_slam2d.cpp.o
+.PHONY : types_tutorial_slam2d.cpp.o
+
+types_tutorial_slam2d.i: types_tutorial_slam2d.cpp.i
+
 .PHONY : types_tutorial_slam2d.i
 
-# target to generate assembly for a file
-types_tutorial_slam2d.s:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/types_tutorial_slam2d.s
+# target to preprocess a source file
+types_tutorial_slam2d.cpp.i:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/types_tutorial_slam2d.cpp.i
+.PHONY : types_tutorial_slam2d.cpp.i
+
+types_tutorial_slam2d.s: types_tutorial_slam2d.cpp.s
+
 .PHONY : types_tutorial_slam2d.s
 
-# target to build an object file
-vertex_point_xy.o:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/vertex_point_xy.o
+# target to generate assembly for a file
+types_tutorial_slam2d.cpp.s:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/types_tutorial_slam2d.cpp.s
+.PHONY : types_tutorial_slam2d.cpp.s
+
+vertex_point_xy.o: vertex_point_xy.cpp.o
+
 .PHONY : vertex_point_xy.o
 
-# target to preprocess a source file
-vertex_point_xy.i:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/vertex_point_xy.i
+# target to build an object file
+vertex_point_xy.cpp.o:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/vertex_point_xy.cpp.o
+.PHONY : vertex_point_xy.cpp.o
+
+vertex_point_xy.i: vertex_point_xy.cpp.i
+
 .PHONY : vertex_point_xy.i
 
-# target to generate assembly for a file
-vertex_point_xy.s:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/vertex_point_xy.s
+# target to preprocess a source file
+vertex_point_xy.cpp.i:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/vertex_point_xy.cpp.i
+.PHONY : vertex_point_xy.cpp.i
+
+vertex_point_xy.s: vertex_point_xy.cpp.s
+
 .PHONY : vertex_point_xy.s
 
-# target to build an object file
-vertex_se2.o:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/vertex_se2.o
+# target to generate assembly for a file
+vertex_point_xy.cpp.s:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/vertex_point_xy.cpp.s
+.PHONY : vertex_point_xy.cpp.s
+
+vertex_se2.o: vertex_se2.cpp.o
+
 .PHONY : vertex_se2.o
 
-# target to preprocess a source file
-vertex_se2.i:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/vertex_se2.i
+# target to build an object file
+vertex_se2.cpp.o:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/vertex_se2.cpp.o
+.PHONY : vertex_se2.cpp.o
+
+vertex_se2.i: vertex_se2.cpp.i
+
 .PHONY : vertex_se2.i
 
-# target to generate assembly for a file
-vertex_se2.s:
-	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/vertex_se2.s
+# target to preprocess a source file
+vertex_se2.cpp.i:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/vertex_se2.cpp.i
+.PHONY : vertex_se2.cpp.i
+
+vertex_se2.s: vertex_se2.cpp.s
+
 .PHONY : vertex_se2.s
+
+# target to generate assembly for a file
+vertex_se2.cpp.s:
+	$(MAKE) -f CMakeFiles/tutorial_slam2d_library.dir/build.make CMakeFiles/tutorial_slam2d_library.dir/vertex_se2.cpp.s
+.PHONY : vertex_se2.cpp.s
 
 # Help Target
 help:

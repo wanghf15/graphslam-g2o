@@ -99,7 +99,7 @@ namespace g2o {
       firstPose.truePose = SE2(0,0,0);
       firstPose.simulatorPose = SE2(0,0,0);
       poses.push_back(firstPose);
-      cerr << "Simulator: sampling nodes ..." << poses.size();
+      cerr << "Simulator: sampling nodes ...";
       while ((int)poses.size() < numNodes) {
         // add straight motions
         for (int i = 1; i < steps && (int)poses.size() < numNodes; ++i) {

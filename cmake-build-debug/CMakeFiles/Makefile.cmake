@@ -13,7 +13,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompiler.cmake.in"
   "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp"
   "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeCXXInformation.cmake"
-  "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
   "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeCommonLanguageInclude.cmake"
   "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeCompilerIdDetection.cmake"
   "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeDetermineCCompiler.cmake"
@@ -37,8 +36,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeTestCXXCompiler.cmake"
   "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeTestCompilerCommon.cmake"
   "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CMakeUnixFindMake.cmake"
-  "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CheckCXXCompilerFlag.cmake"
-  "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/CheckCXXSourceCompiles.cmake"
   "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/Compiler/ADSP-DetermineCompiler.cmake"
   "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/Compiler/ARMCC-DetermineCompiler.cmake"
   "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/Compiler/AppleClang-DetermineCompiler.cmake"
@@ -83,6 +80,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/Compiler/XL-CXX-DetermineCompiler.cmake"
   "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/Compiler/zOS-C-DetermineCompiler.cmake"
   "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake"
+  "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/FindPackageHandleStandardArgs.cmake"
+  "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/FindPackageMessage.cmake"
   "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/Internal/FeatureTesting.cmake"
   "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/Platform/Linux-Determine-CXX.cmake"
   "/home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/share/cmake-3.7/Modules/Platform/Linux-GNU-C.cmake"
@@ -97,6 +96,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.7.2/CMakeSystem.cmake"
   "CMakeFiles/feature_tests.c"
   "CMakeFiles/feature_tests.cxx"
+  "../cmake_modules/FindCSparse.cmake"
+  "../cmake_modules/FindCholmod.cmake"
+  "../cmake_modules/FindEigen3.cmake"
   )
 
 # The corresponding makefile is:

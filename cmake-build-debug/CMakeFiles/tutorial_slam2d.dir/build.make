@@ -43,10 +43,10 @@ RM = /home/wanghf/dev/installs/clion-2017.1.3/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wanghf/dev/ninebot/tutorial_slam2d
+CMAKE_SOURCE_DIR = /home/wanghf/dev/ninebot/graphslam-g2o
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug
+CMAKE_BINARY_DIR = /home/wanghf/dev/ninebot/graphslam-g2o/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tutorial_slam2d.dir/depend.make
@@ -57,50 +57,50 @@ include CMakeFiles/tutorial_slam2d.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/tutorial_slam2d.dir/flags.make
 
-CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.o: CMakeFiles/tutorial_slam2d.dir/flags.make
-CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.o: ../tutorial_slam2d.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.o -c /home/wanghf/dev/ninebot/tutorial_slam2d/tutorial_slam2d.cpp
+CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.o: CMakeFiles/tutorial_slam2d.dir/flags.make
+CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.o: ../tutorial_slam2d.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/wanghf/dev/ninebot/graphslam-g2o/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.o -c /home/wanghf/dev/ninebot/graphslam-g2o/tutorial_slam2d.cpp
 
-CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wanghf/dev/ninebot/tutorial_slam2d/tutorial_slam2d.cpp > CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.i
+CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/wanghf/dev/ninebot/graphslam-g2o/tutorial_slam2d.cpp > CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.i
 
-CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wanghf/dev/ninebot/tutorial_slam2d/tutorial_slam2d.cpp -o CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.s
+CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/wanghf/dev/ninebot/graphslam-g2o/tutorial_slam2d.cpp -o CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.s
 
-CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.o.requires:
+CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.o.requires:
 
-.PHONY : CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.o.requires
+.PHONY : CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.o.requires
 
-CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.o.provides: CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.o.requires
-	$(MAKE) -f CMakeFiles/tutorial_slam2d.dir/build.make CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.o.provides.build
-.PHONY : CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.o.provides
+CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.o.provides: CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.o.requires
+	$(MAKE) -f CMakeFiles/tutorial_slam2d.dir/build.make CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.o.provides.build
+.PHONY : CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.o.provides
 
-CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.o.provides.build: CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.o
+CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.o.provides.build: CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.o
 
 
 # Object files for target tutorial_slam2d
 tutorial_slam2d_OBJECTS = \
-"CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.o"
+"CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.o"
 
 # External object files for target tutorial_slam2d
 tutorial_slam2d_EXTERNAL_OBJECTS =
 
-tutorial_slam2d: CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.o
-tutorial_slam2d: CMakeFiles/tutorial_slam2d.dir/build.make
-tutorial_slam2d: libtutorial_slam2d.a
-tutorial_slam2d: CMakeFiles/tutorial_slam2d.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable tutorial_slam2d"
+../bin/tutorial_slam2d: CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.o
+../bin/tutorial_slam2d: CMakeFiles/tutorial_slam2d.dir/build.make
+../bin/tutorial_slam2d: libtutorial_slam2d.a
+../bin/tutorial_slam2d: CMakeFiles/tutorial_slam2d.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/wanghf/dev/ninebot/graphslam-g2o/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../bin/tutorial_slam2d"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tutorial_slam2d.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/tutorial_slam2d.dir/build: tutorial_slam2d
+CMakeFiles/tutorial_slam2d.dir/build: ../bin/tutorial_slam2d
 
 .PHONY : CMakeFiles/tutorial_slam2d.dir/build
 
-CMakeFiles/tutorial_slam2d.dir/requires: CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.o.requires
+CMakeFiles/tutorial_slam2d.dir/requires: CMakeFiles/tutorial_slam2d.dir/tutorial_slam2d.cpp.o.requires
 
 .PHONY : CMakeFiles/tutorial_slam2d.dir/requires
 
@@ -109,6 +109,6 @@ CMakeFiles/tutorial_slam2d.dir/clean:
 .PHONY : CMakeFiles/tutorial_slam2d.dir/clean
 
 CMakeFiles/tutorial_slam2d.dir/depend:
-	cd /home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wanghf/dev/ninebot/tutorial_slam2d /home/wanghf/dev/ninebot/tutorial_slam2d /home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug /home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug /home/wanghf/dev/ninebot/tutorial_slam2d/cmake-build-debug/CMakeFiles/tutorial_slam2d.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/wanghf/dev/ninebot/graphslam-g2o/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/wanghf/dev/ninebot/graphslam-g2o /home/wanghf/dev/ninebot/graphslam-g2o /home/wanghf/dev/ninebot/graphslam-g2o/cmake-build-debug /home/wanghf/dev/ninebot/graphslam-g2o/cmake-build-debug /home/wanghf/dev/ninebot/graphslam-g2o/cmake-build-debug/CMakeFiles/tutorial_slam2d.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tutorial_slam2d.dir/depend
 

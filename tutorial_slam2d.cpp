@@ -80,7 +80,6 @@ int main()
   // adding the odometry to the optimizer
   // first adding all the vertices
   cerr << "Optimization: Adding robot poses ... ";
-  cerr << simulator << endl;
   for (size_t i = 0; i < simulator.poses().size(); ++i) {
     const Simulator::GridPose& p = simulator.poses()[i];
     const SE2& t = p.simulatorPose; 
